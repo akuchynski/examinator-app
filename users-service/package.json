@@ -5,6 +5,7 @@
   "main": "serverless.ts",
   "scripts": {
     "start": "sls offline start --stage dev",
+    "start:mq": "docker-compose --file ./.elasticMQ/docker-compose.yml up",
     "deploy": "sls deploy"
   },
   "engines": {
